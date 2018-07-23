@@ -4,6 +4,7 @@
 	margin: 30px 0 25px 0;
 	text-align: center;
 	font-family: "Rubik Mono One", sans-serif;
+	color: #B30738;
 }
 
 #subtitle {
@@ -45,7 +46,8 @@
 }
 
 .column:hover {
-	background-color: #F1C40F;
+	background-color: #B30738;
+	color: white;
 }
 
 .row:after {
@@ -89,7 +91,7 @@
 	margin-left: -35px;
 	margin-right: 10px;
 	font-family: 'Rubik Mono One', sans-serif;
-	color: #F1C40F;
+	color: #B30738;
 }
 
 
