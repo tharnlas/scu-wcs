@@ -3,7 +3,8 @@
 #title {
 	margin: 30px 0 25px 0;
 	text-align: center;
-	font-family: "Rubik Mono One", sans-serif;
+	font-family: "Roboto Mono", monospace, sans-serif;
+	font-size: 40px;
 	color: #B30738;
 }
 
@@ -39,15 +40,15 @@
 	text-align: center;
 
 	font-family: "PT Mono", sans-serif;
-	background-color: #eee;
-	color: #333;
+	background-color: #93002A;
+	color: #FFF;
 	outline: 0;
 	text-decoration: none;
 }
 
 .column:hover {
-	background-color: #B30738;
-	color: white;
+	background-color: #FFF9EF;
+	color: #000;
 }
 
 .row:after {
@@ -68,12 +69,12 @@
 .section-title {
 	margin: 35px 0 25px 0;
 	text-align: center;
-	font-family: 'Rubik Mono One', sans-serif;
+	font-family: 'Source Code Pro', monospace, sans-serif;
 	font-size: 30px;
 }
 
-.section h3 {
-	font-family: sans-serif;
+.section li {
+	margin: 0 0 10px 25px;
 }
 
 .section a {
@@ -81,16 +82,18 @@
 	color: #2a6496;
 }
 
-.section li {
-	margin: 0 0 10px 25px;
+
+.section-item-title {
+	font-family: 'Source Code Pro', sans-serif;
 }
 
-
 .section-item-title::before {
-	content: '>>';
+	content: '+';
 	margin-left: -35px;
 	margin-right: 10px;
-	font-family: 'Rubik Mono One', sans-serif;
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
 	color: #B30738;
 }
 
@@ -99,8 +102,18 @@
 
 .nav {
 	margin: 25px 0 0 0;
+	font-family: Lato, sans-serif;
+	border-radius: 5px;
+	box-shadow: 1px 2px #eeeeee;
 }
 
-.nav a {
+.nav-links {
+	display: inline-block;
+	margin: 0 0 10px 10px;
+}
+
+.nav-links a {
 	margin: 0 10px;
+	text-decoration: none;
+	color: #2a6496;
 }
