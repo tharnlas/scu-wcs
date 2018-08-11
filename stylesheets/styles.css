@@ -1,3 +1,4 @@
+
 /* HOME PAGE: TITLE */
 
 #title {
@@ -60,10 +61,19 @@
 
 /* PAGES */
 .section {
-	margin: 100px 300px 50px 300px;
+	/*margin: 100px 300px 50px 300px;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 75px;
+
 	line-height: 1.4;
 	font-family: "Lato", sans-serif;
 	color: #333;
+}
+
+.section > div {
+	width: 700px;
 }
 
 .section-title {
@@ -122,4 +132,21 @@
 	margin: 0 10px;
 	text-decoration: none;
 	color: #2a6496;
+}
+
+
+@media screen and (max-width: 800px) {
+  .container, .nav {
+    width: 100%;
+  }
+
+  .section > div {
+  	width: 100%;
+  }
+
+  .section li {
+  	list-style-position: outside;
+  	margin: 0;
+  	padding: 0;
+  }
 }
